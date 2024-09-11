@@ -1,4 +1,4 @@
-# Bloons TD 5's Daily &amp; Special Challenges server recreation
+# Bloons TD 5's Web Challenges server recreation
 Made beautifully with PHP. I don't plan to do much with this anymore, but have fun with it!
 
 ## Some internal info
