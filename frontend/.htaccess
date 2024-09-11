@@ -1,0 +1,14 @@
+<FilesMatch "^[^\.]+$">
+        ForceType application/x-httpd-php
+</FilesMatch>
+
+# change .html files to identify as .php files
+AddType application/x-httpd-php .html
+
+Require all granted
+
+Options -Indexes
+
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, API-Key, Authorization"
